@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> my portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+        }
+         body {
+      background: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+        header{
+            text-align: center;
+            color: #fffaff;
+            line-height: 2;
+            background-color:  #0a2463;
+            padding: 20px;
+        
+        }
+header h1{
+    font-size: 2.2rem;
+}
+header p{
+     margin-top:5px; 
+     font-size: 1.6rem;
+}
+        nav{
+            background-color:#1f2937 ;
+            display: flex;
+            color:#f9fafb;
+            text-align: center;
+            gap: 20px ;
+            padding: 10px;
+            justify-content: center;
+        }
+         nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;}
+       section {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+    }
+
+    section h2 {
+      margin-bottom: 15px;
+      color: #1f2933;
+      border-bottom: 2px solid #38bdf8;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    
+    
+   .projectlist .skillslist{
+            display: grid;
+      gap: 15px;
+      margin-top: 15px;
+    }
+    .card{ background: #f9fafb;
+      padding: 15px;
+      border-radius: 6px;
+      border-left: 4px solid #38bdf8;
+    }
+
+    .card h3 {
+      margin-bottom: 8px;
+    }
+    footer{
+       max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+    }
+    footer h2{
+        border-bottom: 4px solid #38bdf8 ;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vineet Vidyarthi</h1>
+        <p>B-TECH CSE (AI & ML IBM)|1<sup>st</sup> Year Student</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+          <a href="#skill">skills</a>
+            <a href="#project">projects</a>
+              <a href="#certificates">certificates</a>
+              <a href="#contact">contact</a>
+    </nav>
+    
+   
+    <section id="about">
+        <h2 id="about">About me</h2>
+         <p>
+      I am a first-year BTech Computer Science (AI & ML IBM) student passionate about<br>
+      programming, web development, and problem-solving. I am currently learning<br>
+      C, Python, HTML, CSS, and JavaScript.
+    </p>
+ <ul>
+    <a href="resume.png"><button><big>my resume</big></button></a>
+    </ul>
+    </section>
+     
+    <section id="skill">
+     <h2>skills</h2>
+      <div class="skill list">
+        <div class="card">
+        <b>programming</b><br>
+        C,Python(Basics)<br>
+        <a href="c_certificate.png"><button><big>view certificate</big></button></a>
+      </div>
+      <div  class="card">
+        <b>Web development</b><br>
+        HTML,CSS,JavaScript<br>
+        <a href="web_certificate.png"><button><big> view certificate</big></button></a>
+      </div>
+      <div class="card">
+        <b>Tools</b><br>
+        vs code,Git(basics)
+      </div>
+    </section>
+    <section id="projects">
+      <h2>projects</h2>
+      <div class="projectlist">
+        <div class="card">
+          <h4><b>Student portfolio</b></h4>
+          <pre>A simple responsive Portfolio website using HTML,CSS and JavaScript.
+          </pre>
+        </div>
+        <div id="card">
+        <h4><b>Calculator</b></h4>
+         <pre>basic calculator built using C language.</pre>
+        </div>
+        <div class="card">
+          <h4><b>To-Do List</b></h4>
+          <pre>A to-do list app using JavaScript DOM manipulation.</pre>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>Contact</h2>
+      <h4>
+        Email:vidarthyvineet@gmail.com
+      </h4>
+      <h4>
+        GITHUB:github.com/vineetvidyarthi-ibm
+      </h4>
+    <button onclick="rem()" ><big>click me</big></button>
+
+    </section>
+    <footer>
+      designed by ©️ vineet vidyarthi 2025
+    </footer>
+    <script>
+      function rem(){
+        alert("thanks for visiting my portfolio");
+      }
+    </script>
+</body>
+</html>
